@@ -9,6 +9,8 @@
           <a-assets>
             <video id="flower" autoplay loop="true" src="assets/flower.mp4"></video>
           </a-assets>
+        
+          <!-- Using the asset management system. -->
 
             <!-- handle hiro marker -->
             <a-marker preset="hiro">
@@ -23,6 +25,7 @@
                 </a-entity>
 
                 <!-- second entity: reference to the above audio -->
+                <a-video src="#flower" width="16" height="9" position="0 0 -20"></a-video>
             </a-marker>
 
             <!-- add a camera to the scene that renders the objects for us -->
